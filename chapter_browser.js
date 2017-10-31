@@ -1,12 +1,12 @@
 // this is for codes that cannot run in node
 /*control flow*/
 var theNumber = Number(prompt("pick a number", ""));
-alert("Your number is the square-root of", theNumber * theNumber);
+alert("Your number is the square-root of "+theNumber * theNumber);
 
 /*conditional execution*/
 var theNumber = Number(prompt("pick a number", ""));
 if (!isNaN(theNumber)){
-  alert("Your number is the square-root of", theNumber*theNumber);
+  alert("Your number is the square-root of " + theNumber*theNumber);
 }
 else {
   alert("Your input is not a Number");
@@ -20,3 +20,8 @@ if (theNumber < 10){
 }else {
   alert("Large!");
 }
+/*do-while loop*/
+do{
+  name = prompt("Enter ur Name: ", "");
+}while(!name);
+alert(name);
