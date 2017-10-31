@@ -25,3 +25,23 @@ do{
   name = prompt("Enter ur Name: ", "");
 }while(!name);
 alert(name);
+
+/*switches*/
+switch(prompt("What is the weather like today?")){
+  case "rainy":{
+    console.log("Don't Forget to take an Umbrella.");
+    break;
+  }
+  case "sunny":{
+    console.log("Dress Lightly.");
+    break;
+  }
+  case "cloudy":{
+    console.log("it is advisable to go out today.");
+    break;
+  }
+  default:{
+    console.log("Unknown weather type.");
+    break;
+  }
+}
