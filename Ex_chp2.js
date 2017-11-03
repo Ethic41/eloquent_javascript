@@ -47,4 +47,4 @@ for(i=1; i<=row; i++){
     strng+="\n";
   }
 }
-console.log(strng);
+//console.log(strng);
