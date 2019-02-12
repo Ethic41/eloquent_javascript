@@ -1,0 +1,19 @@
+{
+  "name": "eloquent_javascript",
+  "version": "1.0.0",
+  "description": "code from the book eloquent javascript",
+  "main": "Ex_chp2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethic41/eloquent_javascript.git"
+  },
+  "author": "Dahir Muhammad Dahir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ethic41/eloquent_javascript/issues"
+  },
+  "homepage": "https://github.com/Ethic41/eloquent_javascript#readme"
+}
