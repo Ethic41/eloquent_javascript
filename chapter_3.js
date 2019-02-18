@@ -144,3 +144,13 @@ const hummus = function(factor){
 };
 
 hummus(2);
+
+const newpower = (base, exponent) => {
+    let result = 1;
+    for(let count = 0; count < exponent; count++){
+        result *= base;
+    }
+    return result;
+};
+
+console.log(newpower(35, 14));
