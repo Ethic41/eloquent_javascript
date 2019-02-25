@@ -62,5 +62,9 @@ function reverseArrayInPlace(array){
     }
 }
 
-reverseArrayInPlace(sample);
-console.log(sample);
+//reverseArrayInPlace(sample);
+//console.log(sample);
+
+function arrayToList(array){
+    
+}
